@@ -1,0 +1,17 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  background: var(--dark-purple);
+  opacity: 0.4;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 22px;
+  height: 80%;
+  min-height: 300px;
+  max-height: 80%;
+  z-index: 1;
+  margin: 26px 26px 0 0;
+  width: calc(1 / 3 * 90% - (1 - 1 / 3) * 26px);
+`;

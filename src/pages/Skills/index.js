@@ -1,11 +1,14 @@
 import React from 'react';
 
+import SkillCard from '../../components/SkillCard';
 import { Container } from './styles';
 
 export default function Skill() {
   return (
     <Container>
-      <h1>Skill</h1>
+      <SkillCard />
+      <SkillCard />
+      <SkillCard />
     </Container>
   );
 }
