@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
+@import url('<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:ital,wght@0,300;0,400;1,500&family=Rubik:wght@500;700&display=swap" rel="stylesheet">');
 *  {
         margin: 0;
         padding: 0;
@@ -15,7 +16,15 @@ export default createGlobalStyle`
         border: 0;
         outline: 0;
 
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    span, a {
+        font-family: 'Fira Sans Condensed', sans-serif;
+    }
+
+    h1 {
+        font-family: 'Rubik', sans-serif;
     }
 
     :root {

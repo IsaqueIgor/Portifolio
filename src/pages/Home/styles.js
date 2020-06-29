@@ -6,7 +6,7 @@ export const Container = styled.div`
   max-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: green;
+  background: var(--white);
 `;
 
 export const BioContainer = styled.div`
@@ -18,11 +18,11 @@ export const BioContainer = styled.div`
 export const BioName = styled.h1`
   font-size: 56px;
   font-weight: bold;
-  color: #fff;
+  color: var(--dark-purple);
 `;
 export const BioDescription = styled.h4`
   font-size: 26px;
-  color: #fff;
+  color: var(--dark-purple);
   align-items: center;
 `;
 

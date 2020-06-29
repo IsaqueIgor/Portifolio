@@ -6,5 +6,5 @@ export const Container = styled.div`
   max-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: green;
+  background: var(--white);
 `;

@@ -1,34 +1,57 @@
 import React from 'react';
 
-import { Home, User, Brain, Book } from 'styled-icons/boxicons-solid';
-import { Link } from 'react-router-dom';
-import { Container, IconContainter } from './styles';
+import { NavLink } from 'react-router-dom';
+import {
+  Container,
+  IconContainter,
+  HomeIcon,
+  BookIcon,
+  BrainIcon,
+  UserIcon,
+} from './styles';
 
 const NavPages = () => {
   return (
     <Container>
       <IconContainter>
-        <Link to='/'>
-          <Home size={26} color='var(--light-primary)' />
-        </Link>
+        <NavLink
+          to='/'
+          exact
+          style={{ color: '#9f45a4' }}
+          activeStyle={{ color: '#D6ABCC' }}
+        >
+          <HomeIcon />
+        </NavLink>
       </IconContainter>
 
       <IconContainter>
-        <Link to='/about'>
-          <User size={26} color='var(--light-primary)' />
-        </Link>
+        <NavLink
+          to='/about'
+          style={{ color: '#9f45a4' }}
+          activeStyle={{ color: '#D6ABCC' }}
+        >
+          <UserIcon />
+        </NavLink>
       </IconContainter>
 
       <IconContainter>
-        <Link to='/skills'>
-          <Brain size={26} color='var(--light-primary)' />
-        </Link>
+        <NavLink
+          to='/skills'
+          style={{ color: '#9f45a4' }}
+          activeStyle={{ color: '#D6ABCC' }}
+        >
+          <BrainIcon />
+        </NavLink>
       </IconContainter>
 
       <IconContainter>
-        <Link to='/portifolio'>
-          <Book size={26} color='var(--light-primary)' />
-        </Link>
+        <NavLink
+          to='/portifolio'
+          style={{ color: '#9f45a4' }}
+          activeStyle={{ color: '#D6ABCC' }}
+        >
+          <BookIcon />
+        </NavLink>
       </IconContainter>
     </Container>
   );

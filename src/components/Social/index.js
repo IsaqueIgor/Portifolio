@@ -1,7 +1,13 @@
 import React from 'react';
-import { Linkedin, Instagram, Github } from 'styled-icons/entypo-social';
 
-import { Container, SocialContainer, SocialIcon } from './styles';
+import {
+  Container,
+  SocialContainer,
+  SocialIcon,
+  LinkedinIcon,
+  GithubIcon,
+  InstagramIcon,
+} from './styles';
 
 const SocialIcons = () => {
   return (
@@ -11,18 +17,18 @@ const SocialIcons = () => {
           target='_blank'
           href='https://www.linkedin.com/in/isaqueigor/'
         >
-          <Linkedin size={16} color='var(--primary)' />
+          <LinkedinIcon size={16} />
         </SocialIcon>
 
         <SocialIcon
           target='_blank'
           href='https://www.instagram.com/isaqueigor/'
         >
-          <Instagram size={16} color='var(--primary)' />
+          <InstagramIcon size={16} />
         </SocialIcon>
 
         <SocialIcon target='_blank' href='https://github.com/IsaqueIgor'>
-          <Github size={16} color='var(--primary)' />
+          <GithubIcon size={16} />
         </SocialIcon>
       </SocialContainer>
     </Container>
