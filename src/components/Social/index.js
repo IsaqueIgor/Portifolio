@@ -11,18 +11,18 @@ const SocialIcons = () => {
           target='_blank'
           href='https://www.linkedin.com/in/isaqueigor/'
         >
-          <Linkedin size={16} color='#FFF' />
+          <Linkedin size={16} color='var(--primary)' />
         </SocialIcon>
 
         <SocialIcon
           target='_blank'
           href='https://www.instagram.com/isaqueigor/'
         >
-          <Instagram size={16} color='#FFF' />
+          <Instagram size={16} color='var(--primary)' />
         </SocialIcon>
 
         <SocialIcon target='_blank' href='https://github.com/IsaqueIgor'>
-          <Github size={16} color='#FFF' />
+          <Github size={16} color='var(--primary)' />
         </SocialIcon>
       </SocialContainer>
     </Container>

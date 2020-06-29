@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #000;
+  background: var(--dark-purple);
   max-height: 100vh;
 `;
 
