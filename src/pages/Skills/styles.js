@@ -8,3 +8,7 @@ export const Container = styled.div`
   justify-content: center;
   background: var(--white);
 `;
+
+export const Wave = styled.div`
+  background: url('../../assets/wave.svg') no-repeat 800px bottom;
+`;

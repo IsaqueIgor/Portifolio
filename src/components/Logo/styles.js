@@ -5,6 +5,13 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: var(--gray);
+  background: var(--white);
   max-height: 100vh;
+`;
+
+export const LogoImg = styled.img`
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 `;
