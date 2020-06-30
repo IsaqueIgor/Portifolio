@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container } from './styles';
 
-export const SkillCard = () => {
+const SkillCard = () => {
   return <Container />;
 };
 

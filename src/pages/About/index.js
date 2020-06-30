@@ -1,11 +1,15 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, TimelineContainer, ExperienceTitle } from './styles';
+import Timeline from '../../components/Timeline';
 
 export default function About() {
   return (
     <Container>
-      <h1>About me</h1>
+      <ExperienceTitle>Experiences</ExperienceTitle>
+      <TimelineContainer>
+        <Timeline />
+      </TimelineContainer>
     </Container>
   );
 }
