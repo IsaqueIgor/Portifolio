@@ -5,7 +5,7 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import { Home, School } from 'styled-icons/boxicons-solid';
+import { Work, School } from 'styled-icons/material';
 
 const MyTimeline = () => {
   return (
@@ -20,21 +20,37 @@ const MyTimeline = () => {
         contentArrowStyle={{ borderRight: '17px solid  var(--secundary)' }}
         date='2018'
         iconStyle={{ background: 'var(--secundary)', color: '#fff' }}
-        icon={<Home />}
+        icon={<Work />}
       >
         <h3 className='vertical-timeline-element-title'>
           Head of Customer Success | Full Stack Developer
         </h3>
-        <h4 className='vertical-timeline-element-subtitle'>
+        <a
+          style={{ textDecoration: 'none' }}
+          href='http://industriall.ai/'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
+          <h4
+            style={{ color: 'var(--light-primary)' }}
+            className='vertical-timeline-element-subtitle'
+          >
+            IndustriALL
+          </h4>
+        </a>
+        <h4
+          style={{ color: 'var(--light-primary)' }}
+          className='vertical-timeline-element-subtitle'
+        >
           Vitoria-ES, Brazil
         </h4>
         <p>
-          Manage a team of 2 Software developers. <br /> Manage Enterprise
+          - Manage a team of 2 Software developers. <br /> - Manage Enterprise
           Accounts across all stages from implementation through expansion and
           retention.
-          <br /> Manage multiple cross-product opportunities and projects.
-          <br />I Helped the company migrate our system to a new version made in
-          ASP.NET Core 3 and React
+          <br /> - Manage multiple cross-product opportunities and projects.
+          <br />- I Helped the company migrate our system to a new version made
+          in ASP.NET Core 3 and React
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -42,12 +58,28 @@ const MyTimeline = () => {
         contentStyle={{ borderRadius: 12 }}
         date='2018 - 2020'
         iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
-        icon={<Home />}
+        icon={<Work />}
       >
         <h3 className='vertical-timeline-element-title'>
           Full Stack Developer
         </h3>
-        <h4 className='vertical-timeline-element-subtitle'>
+        <a
+          style={{ textDecoration: 'none' }}
+          href='https://aevo.com.br/'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
+          <h4
+            style={{ color: 'var(--primary)' }}
+            className='vertical-timeline-element-subtitle'
+          >
+            AEVO
+          </h4>
+        </a>
+        <h4
+          style={{ color: 'var(--primary)' }}
+          className='vertical-timeline-element-subtitle'
+        >
           Vitoria-ES, Brazil
         </h4>
         <p>
@@ -66,12 +98,23 @@ const MyTimeline = () => {
         contentStyle={{ borderRadius: 12 }}
         date='2018'
         iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
-        icon={<Home />}
+        icon={<Work />}
       >
         <h3 className='vertical-timeline-element-title'>
-          International Volunteer- AIESEC
+          International Volunteer
         </h3>
-        <h4 className='vertical-timeline-element-subtitle'>Bratislava, SK</h4>
+        <h4
+          style={{ color: 'var(--primary)' }}
+          className='vertical-timeline-element-subtitle'
+        >
+          AIESEC
+        </h4>
+        <h4
+          style={{ color: 'var(--primary)' }}
+          className='vertical-timeline-element-subtitle'
+        >
+          Bratislava, SK
+        </h4>
         <p>
           I worked in the Project Educate Slovakia (Bratislava, Slovakia), which
           is an educational and multicultural project aimed at improving
@@ -84,13 +127,16 @@ const MyTimeline = () => {
         className='vertical-timeline-element--work'
         contentStyle={{ borderRadius: 12 }}
         date='2017'
-        iconStyle={{ background: 'var(--primary)', color: '#fff' }}
-        icon={<Home />}
+        iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
+        icon={<Work />}
       >
         <h3 className='vertical-timeline-element-title'>
           My First Mobile Application
         </h3>
-        <h4 className='vertical-timeline-element-subtitle'>
+        <h4
+          style={{ color: 'var(--primary)' }}
+          className='vertical-timeline-element-subtitle'
+        >
           {' '}
           UCL, Vitoria-Brazil
         </h4>
@@ -111,24 +157,49 @@ const MyTimeline = () => {
         <h3 className='vertical-timeline-element-title'>
           Computer Engineer Student
         </h3>
-        <h4 className='vertical-timeline-element-subtitle'>
-          UCL, Vitoria-Brazil
+        <h4
+          style={{ color: 'var(--primary)' }}
+          className='vertical-timeline-element-subtitle'
+        >
+          UCL - Faculdade do Centro Leste
         </h4>
         <p>
           {' '}
           - Designs, Develops and Maintains Software Systems for commercial,
           Engineering and related applications
+          <br />- Coordinates computer system projects
+          <br />- Define and Implement computer Architectures, Computer networks
+          and industrial automation processes
         </p>
-        <p>- Coordinates computer system projects</p>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className='vertical-timeline-element--work'
+        contentStyle={{ borderRadius: 12 }}
+        date='2015'
+        iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
+        icon={<School />}
+      >
+        <h3 className='vertical-timeline-element-title'>
+          Business Administration - Professional Degree
+        </h3>
+        <h4
+          style={{ color: 'var(--primary)' }}
+          className='vertical-timeline-element-subtitle'
+        >
+          E.E.E.F.M Graca Aranha
+        </h4>
         <p>
-          - Define and Implement computer Architectures, Computer networks and
-          industrial automation processes
+          - People management, sales, marketing
+          <br />
+          - Finance processes , logistics operations
+          <br />- Asset management
         </p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
         iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-        icon={<Home />}
+        icon={<Work />}
       />
     </VerticalTimeline>
   );
