@@ -5,7 +5,7 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import { Work, School } from 'styled-icons/material';
+import { WorkIcon, SchoolIcon } from './styles';
 
 const MyTimeline = () => {
   return (
@@ -13,14 +13,12 @@ const MyTimeline = () => {
       <VerticalTimelineElement
         className='vertical-timeline-element--work'
         contentStyle={{
-          background: 'var(--secundary)',
-          color: '#fff',
           borderRadius: 12,
         }}
-        contentArrowStyle={{ borderRight: '17px solid  var(--secundary)' }}
-        date='2018'
+        contentArrowStyle={{ borderRight: '17px solid ' }}
+        date='2020 - Now'
         iconStyle={{ background: 'var(--secundary)', color: '#fff' }}
-        icon={<Work />}
+        icon={<WorkIcon />}
       >
         <h3 className='vertical-timeline-element-title'>
           Head of Customer Success | Full Stack Developer
@@ -32,14 +30,14 @@ const MyTimeline = () => {
           target='_blank'
         >
           <h4
-            style={{ color: 'var(--light-primary)' }}
+            style={{ color: 'var(--primary)' }}
             className='vertical-timeline-element-subtitle'
           >
             IndustriALL
           </h4>
         </a>
         <h4
-          style={{ color: 'var(--light-primary)' }}
+          style={{ color: 'var(--primary)' }}
           className='vertical-timeline-element-subtitle'
         >
           Vitoria-ES, Brazil
@@ -58,7 +56,7 @@ const MyTimeline = () => {
         contentStyle={{ borderRadius: 12 }}
         date='2018 - 2020'
         iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
-        icon={<Work />}
+        icon={<WorkIcon />}
       >
         <h3 className='vertical-timeline-element-title'>
           Full Stack Developer
@@ -98,7 +96,7 @@ const MyTimeline = () => {
         contentStyle={{ borderRadius: 12 }}
         date='2018'
         iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
-        icon={<Work />}
+        icon={<WorkIcon />}
       >
         <h3 className='vertical-timeline-element-title'>
           International Volunteer
@@ -128,7 +126,7 @@ const MyTimeline = () => {
         contentStyle={{ borderRadius: 12 }}
         date='2017'
         iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
-        icon={<Work />}
+        icon={<WorkIcon />}
       >
         <h3 className='vertical-timeline-element-title'>
           My First Mobile Application
@@ -152,7 +150,7 @@ const MyTimeline = () => {
         contentStyle={{ borderRadius: 12 }}
         date='2016 - Present'
         iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
-        icon={<School />}
+        icon={<SchoolIcon />}
       >
         <h3 className='vertical-timeline-element-title'>
           Computer Engineer Student
@@ -178,7 +176,7 @@ const MyTimeline = () => {
         contentStyle={{ borderRadius: 12 }}
         date='2015'
         iconStyle={{ background: 'var(--primary)', color: 'var(--gray)' }}
-        icon={<School />}
+        icon={<SchoolIcon />}
       >
         <h3 className='vertical-timeline-element-title'>
           Business Administration - Professional Degree
@@ -199,7 +197,7 @@ const MyTimeline = () => {
 
       <VerticalTimelineElement
         iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-        icon={<Work />}
+        icon={<WorkIcon />}
       />
     </VerticalTimeline>
   );

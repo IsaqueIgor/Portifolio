@@ -11,7 +11,11 @@ export const Container = styled.div`
   height: 80%;
   min-height: 300px;
   max-height: 80%;
-  z-index: 1;
+  transition: 0.5s ease;
   margin: 26px 26px 0 0;
   width: calc(1 / 3 * 90% - (1 - 1 / 3) * 26px);
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  }
 `;
