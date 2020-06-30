@@ -6,7 +6,6 @@ export const Container = styled.div`
   max-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: var(--white);
 `;
 
 export const BioContainer = styled.div`

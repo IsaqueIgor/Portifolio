@@ -8,7 +8,6 @@ export const Container = styled.div`
   overflow-y: scroll;
   flex-direction: column;
   justify-content: space-between;
-  background: var(--white);
 `;
 export const ExperienceTitle = styled.h1`
   font-size: 36px;

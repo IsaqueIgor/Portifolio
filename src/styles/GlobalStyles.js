@@ -10,7 +10,8 @@ export default createGlobalStyle`
 
     html, body, #root{
         height: 100%;
-        background: var(--white)
+        background: rgb(70,46,90);
+        background: linear-gradient(90deg, rgba(70,46,90,1) 0%, rgba(120,92,177,1) 40%, rgba(214,171,204,1) 100%);
     }
 
     *, button, input {
