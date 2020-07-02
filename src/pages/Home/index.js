@@ -10,6 +10,7 @@ import {
 } from './styles';
 
 import { User, Brain, Book } from 'styled-icons/boxicons-solid';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -23,10 +24,12 @@ const Home = () => {
             Hire Me
           </HomeBtn>
 
-          <HomeBtn>
-            <Book size={16} color='#1C4342' />
-            Resume
-          </HomeBtn>
+          <Link to='/files/resumecv.pdf' target='_blank' download>
+            <HomeBtn>
+              <Book size={16} color='#1C4342' />
+              Resume
+            </HomeBtn>
+          </Link>
         </ButtomsContainer>
       </BioContainer>
     </Container>
