@@ -25,10 +25,6 @@ export default createGlobalStyle`
         font-family: 'Fira Sans Condensed', sans-serif;
     }
 
-    h1 {
-        font-family: 'Rubik', sans-serif;
-    }
-
     :root {
         --primary: #9f45a4;
         --light-primary: #D6ABCC;
