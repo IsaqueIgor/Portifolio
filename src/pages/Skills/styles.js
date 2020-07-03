@@ -7,7 +7,3 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 `;
-
-export const Wave = styled.div`
-  background: url('../../assets/wave.svg') no-repeat 800px bottom;
-`;

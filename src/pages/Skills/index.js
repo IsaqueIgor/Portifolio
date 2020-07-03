@@ -1,15 +1,15 @@
 import React from 'react';
 
 import SkillCard from '../../components/SkillCard';
-import { Container } from './styles';
+import { Container, IconContainter } from './styles';
 
 export default function Skill() {
   return (
     <Container>
-      <SkillCard />
-      <SkillCard />
-      <SkillCard />
-      <SkillCard />
+      <SkillCard title='Frontend'></SkillCard>
+      <SkillCard title='Backend' />
+      <SkillCard title='Mobile' />
+      <SkillCard title='Others' />
     </Container>
   );
 }

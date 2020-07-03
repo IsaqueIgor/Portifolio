@@ -98,7 +98,7 @@ export const CirclesChild = styled.li`
   }
 
   &:nth-child(10) {
-    left: 85%;
+    left: 15%;
     width: 150px;
     height: 150px;
     animation-delay: 0s;

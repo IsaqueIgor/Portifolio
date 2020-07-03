@@ -15,5 +15,18 @@ export const ExperienceTitle = styled.h1`
 
 export const TimelineContainer = styled.div`
   display: flex;
-  width: 100%;
+  margin-top: 86px;
+  width: 90%;
+`;
+
+export const AboutContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 52px 20px 60px 20px;
+`;
+
+export const AboutDescription = styled.p`
+  font-size: 18px;
+  color: var(--white);
 `;
