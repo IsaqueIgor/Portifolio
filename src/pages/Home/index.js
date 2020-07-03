@@ -8,7 +8,7 @@ import {
   ButtomsContainer,
   HomeBtn,
 } from './styles';
-
+import Animated from '../../components/Circles';
 import { Envelope, Download } from 'styled-icons/boxicons-solid';
 import { Link } from 'react-router-dom';
 

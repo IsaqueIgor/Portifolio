@@ -10,3 +10,12 @@ export const Grid = styled.div`
     'NI HM HM HM';
   height: 100vh;
 `;
+
+export const Circles = styled.ul`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+`;
