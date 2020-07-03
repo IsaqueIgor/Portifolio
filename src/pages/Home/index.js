@@ -9,7 +9,7 @@ import {
   HomeBtn,
 } from './styles';
 
-import { User, Brain, Book } from 'styled-icons/boxicons-solid';
+import { Envelope, Download } from 'styled-icons/boxicons-solid';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -19,14 +19,26 @@ const Home = () => {
         <BioName>Isaque Igor</BioName>
         <BioDescription>Full Stack Developer</BioDescription>
         <ButtomsContainer>
-          <HomeBtn>
-            <User size={16} color='#1C4342' />
-            Hire Me
-          </HomeBtn>
-
-          <Link to='/files/resumecv.pdf' target='_blank' download>
+          <a
+            style={{ color: 'inherit', textDecoration: 'none' }}
+            href='mailto:isaqueigorsilva@gmail.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <HomeBtn>
-              <Book size={16} color='#1C4342' />
+              <Envelope size={20} color='var(--white)' />
+              Contact Me
+            </HomeBtn>
+          </a>
+
+          <Link
+            style={{ textDecoration: 'none' }}
+            to='/files/resumecv.pdf'
+            target='_blank'
+            download
+          >
+            <HomeBtn>
+              <Download size={20} color='var(--white)' />
               Resume
             </HomeBtn>
           </Link>

@@ -13,7 +13,7 @@ export const Container = styled.div`
   max-height: 80%;
   transition: 0.5s ease;
   margin: 26px 26px 0 0;
-  width: calc(1 / 3 * 90% - (1 - 1 / 3) * 26px);
+  width: calc(1 / 4 * 90% - (1 - 1 / 4) * 26px);
   &:hover {
     transform: scale(1.08);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);

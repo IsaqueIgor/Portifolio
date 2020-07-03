@@ -9,6 +9,7 @@ export default function Skill() {
       <SkillCard />
       <SkillCard />
       <SkillCard />
+      <SkillCard />
     </Container>
   );
 }

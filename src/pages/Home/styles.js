@@ -27,9 +27,15 @@ export const BioDescription = styled.h4`
 
 export const HomeBtn = styled.button`
   border-radius: 14px;
-  width: 120px;
+  width: 140px;
   height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+  align-items: center;
   cursor: pointer;
+  color: #fff;
+  background: var(--dark-purple);
   transition: color 0.2s;
   &:hover {
     transform: scale(1.08);
@@ -41,6 +47,6 @@ export const ButtomsContainer = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 16px;
-  width: 250px;
+  width: 300px;
   justify-content: space-between;
 `;
