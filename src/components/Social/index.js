@@ -9,6 +9,8 @@ import {
   InstagramIcon,
 } from './styles';
 
+import Circles from '../Circles';
+
 const SocialIcons = () => {
   return (
     <Container>
@@ -31,6 +33,7 @@ const SocialIcons = () => {
           <GithubIcon size={16} />
         </SocialIcon>
       </SocialContainer>
+      <Circles />
     </Container>
   );
 };

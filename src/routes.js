@@ -16,7 +16,6 @@ const Routes = () => {
       <Logo />
       <NavPages />
       <Social />
-      <Animated />
       <Route component={Home} path='/' exact />
       <Route component={Skills} path='/skills' />
       <Route component={About} path='/about' />

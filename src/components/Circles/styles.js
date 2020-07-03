@@ -3,10 +3,9 @@ import styled, { keyframes } from 'styled-components';
 export const Circles = styled.ul`
   top: 0;
   left: 0;
-  grid-area: 'HM';
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 `;
 
@@ -32,7 +31,6 @@ export const CirclesChild = styled.li`
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
   animation: ${animate} 25s linear infinite;
-  bottom: -150px;
 
   &:nth-child(1) {
     left: 25%;
