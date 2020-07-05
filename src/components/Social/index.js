@@ -33,7 +33,7 @@ const SocialIcons = () => {
           <GithubIcon size={16} />
         </SocialIcon>
       </SocialContainer>
-      <Circles />
+      {/* <Circles /> */}
     </Container>
   );
 };
